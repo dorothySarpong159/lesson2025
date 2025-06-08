@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<!__ we add our metadata __>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta name="author" content="Dorothy Owusu Sarpong">
+	  <meta name="description" content="Domino's Pizza Order Form for Customer">
+	  <meta charset="UTF-8">
+	  <title>Dee's Pizza Order Form</title>
+	  <!__ add our css __>
+	  <link rel="stylesheet" href="css/style.css">
+  </head>
+<body>
+<!__ This is the header page __>
+		<header>
+			<h1>Dee's Pizza World</h1>
+			<p>Build Your Pizza</p>
+		</header>
+  <!__The Order Form __>
+<main>
+	<form action="#" method="post">
+		<fieldset>
+			<legend>Customer Information</legend>
+			<!__ Name input __>
+			<label for="name">Name</label>
+			<input type="text" id="name" name="name" required>
+			<!__ email goes here __>
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+			<!__ Phone Number goes here __>
+			<label for="phone">Phone Number</label>
+			<input type="tel" id="phone" name="phone" required>
+			<label for="address">Address</label>
+			<input type="text" id="address" name="address" required>
+		</fieldset>
+		
+			<!__Pizza details __>
+			<fieldset>
+				<legend>Order Information</legend>
+				<!__ Number of Pizza __>
+				<label for="quantity">Number of Pizzas</label>
+				<input type="number" id="quantity" name="quantity" min="1" max="10">
+				<!__ Pizza Size__>
+				<label for="size">Size</label>
+				<select id="size" name="size" required>
+					<option value="">--select Size--</option>
+					<option value="small">Small</option>
+					<option value="medium">Medium</option>
+					<option value="large">Large</option>
+				</select>
+				<!__ this is the crust section__>
+				<p>Choose Your Crust:</p>
+				<label><input type="radio" name="crust" value="thin"> Thin Crust</label>
+				<br>
+				<label><input type="radio" name="crust" value="thick"> Thick Crust</label>
+				<br>
+				<label><input type="radio" name="crust" value="stuffed"> Stuffed Crust</label>
+				<br>
+				
+				<!__ This is the sauce section__>
+				<p>Sauce:</p>
+				<label><input type="checkbox" name="sauce" value="tomato sauce"> Tomato Sauce</label>
+				<br>
+				<label><input type="checkbox" name="sauce" value="alfredo sauce"> Alfredo Sauce</label>
+				<br>
+				<label><input type="checkbox" name="sauce" value="bbq sauce"> BBQ Sauce</label>
+				<br>
+				
+				<!__This is the cheese section __>
+				<p>Cheese:</p>
+				<label><input type="radio" name="cheese" value="regular cheese"> Regular Cheese</label>
+				<br>
+				<label><input type="radio" name="cheese" value="extra cheese"> Extra Cheese</label>
+				<br>
+				<label><input type="radio" name="cheese" value="light cheese"> Light on Cheese</label>
+				<br>
+				<label><input type="radio" name="cheese" value="no cheese"> No Cheese</label>
+				<br>
+				<!__Toppings __>
+				<p>Toppings:</p>
+				<label><input type="checkbox" name="toppings" value="pepperoni"> Pepperoni</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="mushrooms"> Mushrooms</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="onions"> Onions</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="cheese"> Cheese</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="chicken"> Chicken</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="pepper"> Pepper</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="pineapple"> Pineapple</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="beef"> Beef</label>
+				<br>
+				<label><input type="checkbox" name="toppings" value="sausage"> Sausage</label>
+				<br>
+				
+				<p>Beverages:</p>
+				<label><input type="checkbox" name="drink" value="diet pepsi"> Diet Pepsi</label>
+				<br>
+				<label><input type="checkbox" name="drink" value="coke"> Coke</label>
+				<br>
+				<label><input type="checkbox" name="drink" value="7up"> 7Up</label>
+				<br>
+				<label><input type="checkbox" name="drink" value="pepsi zero"> Pepsi Zero</label>
+				<br>
+				<label><input type="checkbox" name="drink" value="water"> Water</label>
+				<br>
+				
+				<!__ Special Instructions__>
+				<label for="instructions">Special Instructions</label>
+				<textarea id="instructions" name="instructions" rows="4" cols="40"></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Finalize Order</legend>
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</fieldset>
+	</form>
+</main>
+<!__ Footer section__>
+<footer>
+	<h6>Dee's Pizza World</h6>
+</footer>
+</body>
+</html>

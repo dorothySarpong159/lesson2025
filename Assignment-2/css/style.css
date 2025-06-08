@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #d72638;
+    color: #fff;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+/* Main Form Styling */
+main form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+}
+
+/* Fieldsets and Legends */
+fieldset {
+    border: 2px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #d72638;
+    padding:10px;
+}
+
+/* Labels and Inputs */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight:bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+
+textarea {
+    resize: horizontal;
+}
+
+/* Checkbox and Radio Styling */
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 8px;
+    transform: scale(1.2);
+}
+
+/* Button Styles */
+button {
+    background-color: #d72638;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1em;
+    margin-right: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #a81e2a;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    color: #999999;
+    font-size: 0.9em;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    main form {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
